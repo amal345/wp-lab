@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Off And On</title>
+</head>
+<body> <script>
+function light(sw){ var
+pic; if(sw==0)
+{
+pic="bulbof.jpg";
+}
+else
+{
+pic="bulbon.jpg";
+
+}
+document.getElementById("img1").src=pic;
+}
+</script>
+<img id="img1" src="bulbof.jpg" width="100" height="180">
+<p>
+<button type="button" onclick="light(1)">lighton</button>
+<button type="button" onclick="light(0)">lightoff</button>
+</p>
+</body>
+</html>
